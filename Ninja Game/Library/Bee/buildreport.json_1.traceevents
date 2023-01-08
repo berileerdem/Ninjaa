@@ -1,0 +1,556 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1673205370300198, "dur": 1332441, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205370300517, "dur": 17412, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205370317931, "dur": 32641, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205370350575, "dur": 300082, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205370650659, "dur": 967540, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205371618200, "dur": 14439, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205371633290, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1673205370524979, "dur": 112817, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673205370525956, "dur": 44561, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673205370622570, "dur": 4789, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673205370627364, "dur": 10422, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673205370628065, "dur": 8986, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673205370642155, "dur": 1146, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673205370641367, "dur": 1984, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205371633422, "dur": 234, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673205370688658, "dur":1968, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205370690637, "dur":186, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673205370690843, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673205370690865, "dur":718, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673205370691627, "dur":522, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205370692149, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371588638, "dur":214, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371588852, "dur":144, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371588997, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589001, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589036, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589038, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589054, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589055, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589065, "dur":38, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589103, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589108, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589109, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589115, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589120, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589122, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589127, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589128, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589133, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589134, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589139, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589140, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589144, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589146, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589151, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589152, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589157, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589159, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589163, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589164, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589169, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589170, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589175, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589196, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371589274, "dur":8272, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673205370691602, "dur":560, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370692163, "dur":5143, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370697321, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673205370697329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370698621, "dur":1213, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673205370699845, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673205370699929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370700178, "dur":15213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673205370715395, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1673205370715603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370715612, "dur":84996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1673205370800685, "dur":59619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205370860317, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370860345, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205370864572, "dur":65650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205370930233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370930247, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205370932095, "dur":35957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205370968056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205370968065, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205370970919, "dur":53545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371024475, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205371024534, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371026941, "dur":37017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371063977, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205371063999, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371067154, "dur":30544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371097708, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205371097727, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371099586, "dur":75508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371175098, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205371175114, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371177236, "dur":127611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371304861, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205371304885, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371307008, "dur":277675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371584688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673205371584696, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673205371588584, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1673205371588594, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205370691636, "dur":537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205370692174, "dur":5470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205370697645, "dur":97027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673205370794682, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205370794712, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673205370797062, "dur":63593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205370860665, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205370860680, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205370864570, "dur":29355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205370893959, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205370893971, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205370896332, "dur":132531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371028878, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205371028901, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371031286, "dur":35034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371066332, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205371066353, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371069270, "dur":50442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371119718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205371119731, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371121741, "dur":35873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371157625, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205371157640, "dur":6002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371163728, "dur":67574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371231309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205371231320, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371232590, "dur":238310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371470905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673205371470915, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673205371474126, "dur":114513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205370692099, "dur":131, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205370692230, "dur":5079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205370697322, "dur":66235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1673205370763566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205370795280, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1673205370797048, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1673205370797480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205370798157, "dur":32206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1673205370830541, "dur":56811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205370887362, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205370887376, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205370888962, "dur":163697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205371052676, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205371052696, "dur":7445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205371060202, "dur":44358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205371104572, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205371104591, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205371107805, "dur":223665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205371331480, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673205371331501, "dur":12143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673205371343688, "dur":244945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205370691673, "dur":505, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205370692178, "dur":5313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205370697491, "dur":17537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1673205370715035, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205370715060, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1673205370717318, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1673205370717503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205370717516, "dur":8316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1673205370725888, "dur":307180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371033072, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205371033078, "dur":61907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371095037, "dur":148206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371243251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205371243264, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371245212, "dur":63938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371309161, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205371309179, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371311010, "dur":187079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371498096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673205371498105, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673205371499233, "dur":89438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370691701, "dur":482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370692183, "dur":5307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370697491, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1673205370697589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370714258, "dur":83492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1673205370797806, "dur":65041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370862858, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370862878, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370865937, "dur":37952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370903899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370903920, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370906166, "dur":40425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370946596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370946653, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370948520, "dur":38422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370986951, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205370986969, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205370989640, "dur":25415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371015069, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205371015091, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371016830, "dur":29153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371046030, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205371046051, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371049475, "dur":34981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371084465, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205371084488, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371086973, "dur":30548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371117528, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205371117541, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371119320, "dur":60060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371179392, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205371179407, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371181459, "dur":184039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371365509, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673205371365534, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673205371368988, "dur":219671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205370691734, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205370692187, "dur":5366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205370697554, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1673205370697709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205370714668, "dur":453231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1673205371167954, "dur":3026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673205371170990, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205371171010, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673205371172882, "dur":114249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673205371287139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205371287152, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673205371289817, "dur":83762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673205371373589, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673205371373609, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673205371376524, "dur":212113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205370691757, "dur":436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205370692193, "dur":5187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205370697380, "dur":10410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1673205370707796, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205370709633, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1673205370714228, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673205370714438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205370714501, "dur":479885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673205371194462, "dur":90382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673205371284853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205371284869, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673205371286564, "dur":150220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673205371436791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673205371436803, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673205371438637, "dur":150029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673205370691798, "dur":400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673205370692199, "dur":5140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673205370697339, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1673205370697479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673205370704967, "dur":464698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1673205371169726, "dur":1970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673205371171713, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673205371171737, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673205371173571, "dur":276300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673205371449878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673205371449891, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673205371454625, "dur":134010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370691857, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370692201, "dur":5112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370697321, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673205370697870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370704834, "dur":92472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673205370797354, "dur":33699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370831064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370831234, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370833213, "dur":35609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370868831, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370868845, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370871542, "dur":25670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370897222, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370897240, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370899411, "dur":91271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370990697, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205370990717, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205370993885, "dur":39149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205371033045, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371033061, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205371035225, "dur":156994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205371192228, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371192244, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205371195266, "dur":122305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205371317579, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371317595, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673205371319727, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1673205371319915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371320531, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1673205371322494, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1673205371322548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371322623, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1673205371324136, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1673205371324180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371324188, "dur":3825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1673205371328064, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1673205371328241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371328251, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1673205371330359, "dur":1519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1673205371331883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371331889, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1673205371333493, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673205371333556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371333585, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673205371335978, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1673205371336030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371336049, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1673205371337506, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1673205371337559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371337575, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1673205371339083, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1673205371339125, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673205371339142, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1673205371340852, "dur":247779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370691893, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370692206, "dur":5135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370697342, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1673205370697541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370713880, "dur":82352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1673205370796290, "dur":57191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game.exe" }}
+,{ "pid":12345, "tid":10, "ts":1673205370853496, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370853511, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game.exe" }}
+,{ "pid":12345, "tid":10, "ts":1673205370857039, "dur":37126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205370894168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370894175, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205370896799, "dur":40018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205370936832, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370936856, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205370939825, "dur":27782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205370967616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205370967630, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205370969638, "dur":43383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371013028, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205371013044, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371015574, "dur":37596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371053179, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205371053195, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371057054, "dur":72641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371129703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205371129717, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371131808, "dur":49784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371181597, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205371181612, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371183607, "dur":176083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371359699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673205371359714, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673205371362388, "dur":226250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370691923, "dur":287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370692210, "dur":5100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370697321, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1673205370697480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370705180, "dur":17876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1673205370723107, "dur":72009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370795119, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370796030, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370798966, "dur":60486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370859463, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370859483, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370862488, "dur":31458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370893957, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370893972, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370896636, "dur":22237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370918877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370918890, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370920477, "dur":56808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370977293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205370977306, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205370979470, "dur":52387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371031866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371031881, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371035223, "dur":37480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371072717, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371072739, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371074825, "dur":126191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371201024, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371201038, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371202753, "dur":109413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371312213, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371312229, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371314694, "dur":3642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371318347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371318361, "dur":5272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673205371323679, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673205371323730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371323741, "dur":15304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673205371339083, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1673205371339212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673205371339217, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1673205371340857, "dur":247777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370691951, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370692214, "dur":5496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370697711, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1673205370698377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370704911, "dur":93209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1673205370798180, "dur":52015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370850204, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370850221, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370852835, "dur":32630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370885473, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370885486, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370887859, "dur":48643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370936519, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370936544, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370939824, "dur":25968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370965803, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370965822, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370967755, "dur":27068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370994831, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205370994849, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205370996632, "dur":115256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371111901, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371111922, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371114615, "dur":36555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371151180, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371151230, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371153717, "dur":3265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371156993, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371157008, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371160750, "dur":3781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371164542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371164558, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371168401, "dur":43343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371211753, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371211768, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371213100, "dur":40361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371253470, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371253521, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371255080, "dur":167830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371422917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673205371422928, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673205371425578, "dur":163066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370691989, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370692218, "dur":5093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370697322, "dur":97553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1673205370794879, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370794896, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1673205370797340, "dur":29928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205370827276, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370828311, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205370830772, "dur":91974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205370922756, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370922774, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205370924274, "dur":47108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205370971389, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205370971404, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205370973331, "dur":27795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371001136, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371001159, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371003913, "dur":36629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371040556, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371040578, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371043138, "dur":38438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371081588, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371081672, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371084007, "dur":51549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371135563, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371135578, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371137363, "dur":35812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371173180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371173283, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371174884, "dur":100417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371275310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371275322, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371276968, "dur":137875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371414850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673205371414862, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673205371416557, "dur":172086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370692025, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370692223, "dur":5496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370697719, "dur":30242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1673205370727968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370727994, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1673205370729518, "dur":166388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1673205370895922, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370895944, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1673205370899290, "dur":46873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205370946174, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370946190, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205370948412, "dur":29545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205370977969, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205370977986, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205370980943, "dur":45625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371026579, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205371026598, "dur":4428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371031082, "dur":66628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371097714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205371097727, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371100552, "dur":97029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371197589, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205371197605, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371199444, "dur":62970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371262430, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205371262450, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371265324, "dur":142686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371408017, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673205371408031, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673205371409917, "dur":178728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370692063, "dur":163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370692226, "dur":5088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370697322, "dur":26226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1673205370723555, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370723850, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1673205370725350, "dur":132388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205370857752, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370857971, "dur":12995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205370871032, "dur":78489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205370949529, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370949542, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205370951467, "dur":31363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205370982840, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205370982865, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205370985159, "dur":32590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371017760, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205371017781, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371019642, "dur":71338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371090995, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205371091018, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371094581, "dur":135084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371229671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205371229683, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371231592, "dur":248571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371480170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673205371480181, "dur":3648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673205371483918, "dur":104750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370691624, "dur":543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370692167, "dur":5432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370697599, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1673205370697737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370716561, "dur":82445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1673205370799053, "dur":74105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370873169, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370873192, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370874905, "dur":41845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370916757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370916802, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370918691, "dur":33034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370951732, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370951747, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370953306, "dur":26057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370979380, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205370979399, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205370981646, "dur":28709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371010367, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205371010384, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371012614, "dur":30407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371043029, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205371043049, "dur":3414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371046527, "dur":40200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371086740, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205371086759, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371089346, "dur":52073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371141428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205371141446, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371142931, "dur":83501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371226439, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205371226452, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371228674, "dur":191404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371420089, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673205371420104, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ROGSTRIX/Desktop/Ninja/Ninja Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673205371421949, "dur":166700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673205371600290, "dur":2071, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1673205371633732, "dur": 766, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673205371633274, "dur": 1251, "ph": "X", "name": "Write chrome-trace events", "args": {} },
